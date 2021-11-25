@@ -19,7 +19,7 @@ public class DNSAuth_TestCase3_Multisocketing
         cl2.sendRequestPacket("Need Information",0); //Spoofed Request
         cl1.sendRequestPacket("Need Information",0); //spoofed Request
         //SendRequestPacket has parameters : (Message string, 0/1) : 
-        //0 stands for correct request and 1 stands for spoofed request
+        //0 stands for spoofed request and 1 stands for Correct request
     }
 }
 
