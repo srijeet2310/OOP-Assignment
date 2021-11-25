@@ -16,8 +16,8 @@ public class DNSAuth_TestCase3_Multisocketing
          * same server and their requests are resolved using multi-threading in runtime.
          */
         System.out.println("Client - Server Architecture created");
-        cl2.sendRequestPacket("Need Information",0); //Correct Request
-        cl1.sendRequestPacket("Need Information",0); //Spoofed Request
+        cl2.sendRequestPacket("Need Information",0); //Spoofed Request
+        cl1.sendRequestPacket("Need Information",0); //spoofed Request
         //SendRequestPacket has parameters : (Message string, 0/1) : 
         //0 stands for correct request and 1 stands for spoofed request
     }
